@@ -8,8 +8,8 @@ const API_KEY = '?key=GOdisGood';
 export function fetchPosts() {
   const request = axios.get(`${ROOT_URL}/posts${API_KEY}`);
 
-  return (
+  return {
     type: FETCH_POSTS,
     payload: request
-  );
+  };
 }
