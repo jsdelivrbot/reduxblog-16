@@ -12,8 +12,8 @@ class PostsIndex extends Component {
     return (
       <div>
         <div className= "text-xs-right">
-          <Link to="posts/new" className="btn btn-primary">
-            God is Good
+          <Link to="/posts/new" className="btn btn-primary">
+            New Post
           </Link>
         </div>
           List of blog posts
